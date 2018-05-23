@@ -1,0 +1,5 @@
+public class Cla{
+    String nome;
+    String treinador;
+    String fundação;
+}
