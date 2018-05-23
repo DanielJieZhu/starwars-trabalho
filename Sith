@@ -1,9 +1,57 @@
 abstract class Sith{
-    final String academia = "Academia Sith Korriban";
-    final String conselho = "Irmandade da Escuridão";
-    double percentRaiva;
-    String novoNome;
-    boolean telepatia;
-    boolean telecinese;
-    boolean persuasão;
+    static final String academia = "Academia Sith Korriban";
+    static final String conselho = "Irmandade da Escuridão";
+    private double percentRaiva;
+    private String novoNome;
+    private boolean telepatia;
+    private boolean telecinese;
+    private boolean persuasão;
+    
+    public void setPercentRaiva(double p) {
+         percentRaiva = p;
+    }
+    
+    public double getPercentRaiva() {
+         return percentRaiva;
+    }
+    
+    public void setNovoNome(String n) {
+         novoNome = n;
+    }
+    
+    public String getNovoNome() {
+         return novoNome;
+    }
+
+    public void setPercentRaiva(double p) {
+         percentRaiva = p;
+    }
+    
+    public double getPercentRaiva() {
+         return percentRaiva;
+    }
+   
+    public boolean isTelepatia() {
+		return telepatia;
+	}
+
+	public void setTelepatia(boolean telepatia) {
+		this.telepatia = telepatia;
+	}
+
+	public boolean isTelecinese() {
+		return telecinese;
+	}
+
+	public void setTelecinese(boolean telecinese) {
+		this.telecinese = telecinese;
+	}
+
+	public boolean isPersuasão() {
+		return persuasão;
+	}
+
+	public void setPersuasão(boolean persuasão) {
+		this.persuasão = persuasão;
+	}
 }
