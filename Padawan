@@ -1,0 +1,5 @@
+public class Padawan extends Jedi{
+    final String marco ="conhecimento de construcao do sabre de luz"
+    String mentor;
+ 
+}
