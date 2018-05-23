@@ -1,0 +1,4 @@
+public class Cavaleiro extends Jedi{
+  final String marco="aprovado por teste jedi"
+  
+}
