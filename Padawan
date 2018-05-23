@@ -1,5 +1,11 @@
 public class Padawan extends Jedi{
-    final String marco ="conhecimento de construcao do sabre de luz"
-    String mentor;
- 
+    static final String marco ="conhecimento de construcao do sabre de luz"
+    private String mentor;
+    
+    public String getMentor() {
+		return mentor;
+	}
+	public void setMentor(String mentor) {
+		this.mentor = mentor;
+	}
 }
