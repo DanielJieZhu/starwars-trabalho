@@ -31,27 +31,27 @@ abstract class Sith{
          return percentRaiva;
     }
    
-    public boolean isTelepatia() {
-		return telepatia;
-	}
+    public boolean isTelepatia() { 
+         return telepatia;
+    }
 
-	public void setTelepatia(boolean telepatia) {
-		this.telepatia = telepatia;
-	}
+    public void setTelepatia(boolean telepatia) {
+	 this.telepatia = telepatia;
+    }
 
-	public boolean isTelecinese() {
-		return telecinese;
-	}
+    public boolean isTelecinese() {
+	 return telecinese;
+    }
 
-	public void setTelecinese(boolean telecinese) {
-		this.telecinese = telecinese;
-	}
+    public void setTelecinese(boolean telecinese) {
+	 this.telecinese = telecinese;
+    }
 
-	public boolean isPersuasão() {
-		return persuasão;
-	}
+    public boolean isPersuasão() {
+	 return persuasão;
+    }
 
-	public void setPersuasão(boolean persuasão) {
-		this.persuasão = persuasão;
-	}
+    public void setPersuasão(boolean persuasão) {
+	 this.persuasão = persuasão;
+    }
 }
