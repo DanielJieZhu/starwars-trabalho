@@ -1,4 +1,10 @@
 public class Lorde extends Sith{
-    String campoVidencia;
+    private String campoVidencia;
 
+    public String getCampoVidencia() {
+		return campoVidencia;
+	}
+	public void setCampoVidencia(String campoVidencia) {
+		this.campoVidencia = campoVidencia;
+	}
 }
