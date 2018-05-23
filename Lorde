@@ -1,0 +1,5 @@
+public class Lorde extends Sith{
+    boolean imortal;
+    String campoVidencia;
+
+}
