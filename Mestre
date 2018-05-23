@@ -1,5 +1,4 @@
 public class Mestre extends Jedi{
-    boolean imortal;
     String campoVidencia;
 
 }
