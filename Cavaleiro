@@ -1,4 +1,11 @@
 public class Cavaleiro extends Jedi{
-  final String marco="aprovado por teste jedi"
-  String dataAprovacao;
+  static final String marco="aprovado por teste jedi"
+  private String dataAprovacao;
+  
+  public String getDataAprovacao() {
+		return dataAprovacao;
+	}
+	public void setDataAprovacao(String dataAprovacao) {
+		this.dataAprovacao = dataAprovacao;
+	}
 }
