@@ -1,0 +1,6 @@
+abstract public class RegimePolitico{
+    String dataInstituicao;
+    String dataDissolvimento;
+    Planeta capital;
+    SerVivo chefeEstado;
+}
