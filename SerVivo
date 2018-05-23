@@ -1,0 +1,11 @@
+abstract class SerVivo{
+    String nome;
+    String Genero;
+    String especie;
+    String nascimento;
+    Planeta planeta;
+    boolean jedi;
+    boolean sith;
+    String rank;
+    
+}
