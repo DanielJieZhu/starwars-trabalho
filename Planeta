@@ -1,6 +1,6 @@
 public class Planeta{
-    String nome;
-    String cor;
-    String sistema;
-    int diametro;
+    private String cor;
+	private String sistema;
+	private String nome;
+	private double diametro;
 }
