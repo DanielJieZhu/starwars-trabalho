@@ -1,0 +1,9 @@
+abstract class Sith{
+    final String academia = "Academia Sith Korriban";
+    final String conselho = "Irmandade da Escuridão";
+    double percentRaiva;
+    String novoNome;
+    boolean telepatia;
+    boolean telecinese;
+    boolean persuasão;
+}
