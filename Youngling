@@ -1,0 +1,4 @@
+public class Youngling extends Jedi{
+    final String marco = "coleta de cristais de luz";
+   
+}
