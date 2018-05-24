@@ -1,3 +1,5 @@
+package Simulation;
+
 abstract public class RegimePolitico{
     private String dataInstituicao;
     private String dataDissolvimento;
