@@ -1,3 +1,5 @@
+package Simulation;
+
 abstract class SerVivo{
     private String nome;
     private String Genero;
