@@ -1,3 +1,5 @@
+package Simulation;
+
 abstract class Sith{
     static final String academia = "Academia Sith Korriban";
     static final String conselho = "Irmandade da Escuridão";
