@@ -1,3 +1,5 @@
+package Simulation;
+
 abstract class Jedi{
     static final String academia = "Academia Jedi Coruscant";
     static final String conselho = "Conselho do Templo de Coruscant";
