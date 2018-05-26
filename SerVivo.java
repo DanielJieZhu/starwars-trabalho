@@ -16,9 +16,9 @@ public class SerVivo {
     	vida = v;
     	dominioForca = f;
     	dominioSabre = s;
-    	Habilidade[] hab = { new Habilidade("Slash", 20, 15, 1),
-		           new Habilidade("Thrust", 25, 15, 1),
-		           new Habilidade("Punch", 10, 5, 2),
+    	Habilidade[] hab = { new Habilidade("Strong Slash", 15, 15, 1),
+		           new Habilidade("Weak Slash", 10, 10, 1),
+		           new Habilidade("Force Push", 10, 10, 2),
 		           new Habilidade("Dodge", 0, 0, 3) };
 		for(int i = 0; i < hab.length; i++)
 			habilidade.add(hab[i]);
@@ -26,9 +26,9 @@ public class SerVivo {
     
     public SerVivo(String nome) {
     	this.nome = nome;
-    	Habilidade[] hab = { new Habilidade("Slash", 15, 10, 1),
-		           new Habilidade("Thrust", 25, 15, 1),
-		           new Habilidade("Punch", 10, 5, 2),
+    	Habilidade[] hab = { new Habilidade("Strong Slash", 15, 15, 1),
+		           new Habilidade("Weak Slash", 10, 10, 1),
+		           new Habilidade("Force Push", 10, 10, 2),
 		           new Habilidade("Dodge", 0, 0, 3) };
 		for(int i = 0; i < hab.length; i++)
 			habilidade.add(hab[i]);
