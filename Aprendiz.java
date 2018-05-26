@@ -1,4 +1,4 @@
-package lista07;
+package Simulation;
 
 public class Aprendiz {
 	 static final String marco="conhecimento de construcao de sabre de luz";
