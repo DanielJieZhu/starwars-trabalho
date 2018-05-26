@@ -1,5 +1,0 @@
-package Simulation;
-
-public class Aprendiz extends Sith{
-   static final String marco="conhecimento de construcao de sabre de luz";
-}
