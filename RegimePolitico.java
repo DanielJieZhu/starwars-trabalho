@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 abstract public class RegimePolitico{
     private String dataInstituicao;
