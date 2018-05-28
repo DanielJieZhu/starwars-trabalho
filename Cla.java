@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 public class Cla {
 	 private String nome;
