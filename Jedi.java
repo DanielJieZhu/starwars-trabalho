@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 abstract class Jedi{
     static final String academia = "Academia Jedi Coruscant";
