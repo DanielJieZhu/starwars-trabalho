@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 public class Cavaleiro extends Jedi{
   static final String marco="aprovado por teste jedi";
