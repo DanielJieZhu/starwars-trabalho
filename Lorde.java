@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 public class Lorde extends Sith{
     private String campoVidencia;
