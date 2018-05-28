@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 // Classe q representa uma batalha StarWars onde o Mestre Jedi e o Lord Sith entraram em confronto.
 
