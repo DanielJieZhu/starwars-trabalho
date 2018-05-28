@@ -1,59 +1,56 @@
-package Simulation;
+package starwars;
 
-abstract public class Habilidade {
-		
-	private int prioridade;
-	private String skill;
+// Classe q representa as habilidades de um SerVivo.
+// Quando um ser vivo aprende uma habilidade, a prioridade é definida 
+// como 1 para ataque com sabre, 2 para ataque com força e 3 para esquivar
+
+public class Habilidade {
 	private int dano;
 	private int gasto;
-		
+	private String nome;
+	private int prioridade;
+	
+	Habilidade(String n, int d, int g, int p) {
+		nome = n;
+		dano = d;
+		gasto = g;
+		prioridade = p;
+	}
+
 	public int getPrioridade() {
 		return prioridade;
 	}
+
 	public void setPrioridade(int prioridade) {
-		this.prioridade = prioridade;		
+		this.prioridade = prioridade;
 	}
-		
-	public String getSkill() {
-		return skill;
-	}
-	public void setSkill(String nome) {
-		this.skill = nome;
-	}
-	public int getDano() {
+	
+	public int getDanoBasico() {
 		return dano;
 	}
+	
+	public int getDano(int dominio) {   // O dano causado por uma habilidade depende tb do domínio correspondente.
+		return dano + dominio/15;
+	}
+
 	public void setDano(int dano) {
 		this.dano = dano;
 	}
+
 	public int getGasto() {
 		return gasto;
 	}
+
 	public void setGasto(int gasto) {
 		this.gasto = gasto;
 	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 	
-	void saberSkillStrong() {	
-		this.prioridade = 0;
-		this.gasto = 2;
-		this.dano = 15;
-	}
-		
-	void saberSkillWeak() {
-		this.prioridade = 0;
-		this.gasto = 1;
-		this.dano = 10;
-	}
-		
-	void forceSkill() {
-		this.prioridade = 1;
-		this.gasto = 1;
-		this.dano = 5;	
-	}
-		
-	void doge() {		
-		this.prioridade = 2;
-		this.gasto = 0;
-		this.dano = 0;
-	}
 }
