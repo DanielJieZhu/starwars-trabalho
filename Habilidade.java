@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 // Classe q representa as habilidades de um SerVivo.
 // Quando um ser vivo aprende uma habilidade, a prioridade é definida 
