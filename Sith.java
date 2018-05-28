@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 abstract class Sith{
     static final String academia = "Academia Sith Korriban";
