@@ -1,4 +1,4 @@
-package starwars;
+package Simulation;
 
 import java.util.ArrayList;
 
