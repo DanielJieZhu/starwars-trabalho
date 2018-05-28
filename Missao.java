@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 public class Missao{
     private String nome;
