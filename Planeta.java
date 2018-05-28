@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 public class Planeta{
 	private String cor;
