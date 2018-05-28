@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 public class Padawan extends Jedi{
     static final String marco ="conhecimento de construcao do sabre de luz";
