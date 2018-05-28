@@ -1,4 +1,4 @@
-package Simulation;
+package starwars;
 
 // Classe q representa cada turno da batalha. Para cada turno, terão uma ação de um lutador e outra ação do outro lutador.
 // Quando as ações são efetuadas, elas respeitam a regra das prioridades(esquivar > ataque com força > ataque com sabre).
